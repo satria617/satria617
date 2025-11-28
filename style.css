@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Tema Gelap */
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 12px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+/* Untuk tema gelap */
+body.dark ul li {
+    background: rgba(0, 0, 0, 0.4);
+}
